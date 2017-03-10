@@ -1,0 +1,11 @@
+<?php
+//点击注销登录时
+//清除cookie
+setcookie("inputPhone","",0);
+setcookie("inputPwd","",0);
+//清除session
+session_start();
+unset($_SESSION['inputPhone']);
+unset($_SESSION['inputPwd']);
+header("Location:first.php");
+?>

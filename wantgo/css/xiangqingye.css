@@ -1,0 +1,346 @@
+/*详情页样式*/
+body {
+	background-color: #f9f9f9;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+	.xqyhead {
+		width: 980px;
+		height: 100px;
+		margin: 35px auto 35px auto;
+		border-bottom: 1px lightgray solid;
+	}
+	.xqyhead div {
+		float: left;
+		margin-top: 20px;
+	}
+	.xqyhead div:nth-child(1) {
+		width: 50px;
+		height: 50px;
+		margin-right: 20px;
+	}
+	.xqyhead div:nth-child(1) a img {
+		width: 100%;
+		height: 100%;
+	}
+	.xqyhead div:nth-child(2) a p {
+		margin-top: 10px;
+		color: gray;
+		font-size: 12px;
+		word-break: break-all;
+	}
+	.xqyhead div:nth-child(2) a:hover {
+		text-decoration: underline;
+	}
+	/**/
+	.xqybody {
+		width: 980px;
+		height: 980px;
+		margin: 0 auto;
+	}
+	.leftbody {
+		float: left;
+		width: 600px;
+		height: 600px;
+		margin-right: 35px;
+	}
+	.leftbody img {
+		width: 100%;
+		height: 100%;
+	}
+	.rightbody {
+		float: right;
+		width: 335px;
+	}
+	.rightbody p {
+		font-size: 17px;
+		line-height: 25px;
+		font-weight: 400;
+		margin-bottom: 15px;
+	}
+	.rightbody p:nth-child(2) span {
+		padding-left: 38px;
+	}
+	.rightbody p:nth-child(3) span {
+		padding-left: 54px;
+	}
+	.tuan span {
+		display: inline-block;
+		border: 1px solid rgb(153, 153, 153);
+		padding: 8px;
+		margin-right: 5px;
+		font-size: 16px;
+		font-weight: 500;
+		cursor: pointer;
+		margin-bottom: 18px;
+	}
+	.xinghao span {
+		display: inline-block;
+		border: 1px solid rgb(153, 153, 153);
+		padding: 8px;
+		margin-right: 5px;
+		font-size: 16px;
+		font-weight: 500;
+		cursor: pointer;
+		margin-bottom: 8px;
+	}
+	.shuliang {
+		margin-top: 18px;
+	}
+	.nums {
+		width: 135px;
+		display: inline-block;
+		border: 1px solid black;
+	}
+	.shuliang div button {
+		display: inline-block;
+		width: 35px;
+		height: 29px;
+		background-color: #f9f9f9;
+		border: none;
+		font-weight: 700;
+		outline: none;
+	}
+	.shuliang div button:nth-of-type(1) {
+		border-right: 1px solid lightgray;
+	}
+	.shuliang div button:nth-of-type(2) {
+		border-left: 1px solid lightgray;
+	}
+	.inputs1 {
+		width: 50px;
+		height: 29px;
+		border: none;
+		font-weight: 900;
+		text-align: center;
+		background-color: #f9f9f9;
+		outline: none;
+	}
+	.kucun {
+		margin-left: 20px;
+		font-size: 12px;
+		color: rgb(169, 169, 169);
+	}
+	.jiage p {
+		margin-top: 35px;
+		margin-bottom: 5px;
+		font-weight: 900;
+		font-size: 20px;
+	}
+	.lianxi {
+		margin-left: 45px;
+		padding-left: 25px;
+		background: url(../img/1.png) 0 -2px no-repeat;
+		cursor: pointer;
+	}
+	#zhifu {
+		margin-top: 40px;
+	}
+	#zhifu button {
+		width: 160px;
+		height: 50px;
+		display: inline-block;
+		border: 1px solid black;
+		background-color: black;
+		color: white;
+		cursor: pointer;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	#zhifu button:nth-child(2) {
+		background-color: white;
+		color: black;
+		margin-left: 8px;
+	}
+	.fahuo span {
+		font-size: 12px;
+		padding-left: 25px;
+		line-height: 20px;
+		display: inline-block;
+		margin: 20px 10px 0 0;
+	}
+	.fahuo span:nth-child(1) {
+		background: url(http://xqres.xiangqu.com/web_48h.png) no-repeat;
+		background-size: 20px auto;
+	}
+	.fahuo span:nth-child(2) {
+		background: url(http://xqres.xiangqu.com/web_xiangqu.png) no-repeat;
+		background-size: 20px auto;
+	}
+	.erwei {
+		border: 1px solid rgb(235, 235, 235);
+		background-color: white;
+		margin-top: 20px;
+	}
+	.erwei img {
+		width: 70px;
+		height: 70px;
+		padding: 9px;
+		float: left;
+	}
+	.erwei p {
+		padding: 14px 9px 14px 14px;
+		line-height: 20px;
+		font-size: 14px;
+		color: #a9a9a9;
+		margin: 0;
+	}
+	.tltj {
+		width: 940px;
+		height: 195px;
+		margin: 0 auto;
+		border: 1px lightgray solid;
+		padding: 25px 20px 20px;
+		background-color: white;
+		margin-bottom: 30px;
+	}
+	.tltj span {
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 30px;
+		width: 15px;
+		height: 2px;
+		background: #000;
+	}
+	.swiper-container {
+		width: 940px;
+		height: 135px;
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+	.swiper-slide a {
+		margin-right: 15px;
+	}
+	.swiper-slide a img {
+		width: 135px;
+		height: 135px;
+	}
+	.swiper-button-prev {
+		display: none;
+	}
+	.swiper-button-next {
+		display: none;
+	}
+	.spmx {
+		width: 980px;
+		/*height: 500px;*/
+		background-color: white;
+		margin: 0 auto;
+	}
+	.pinglun {
+		height: 50px;
+		border-bottom: 2px solid lightgray;
+		margin-bottom: 25px;
+	}
+	.pinglun li {
+		margin: 22px 0 0 22px;
+		padding-right: 22px;
+		float: left;
+		cursor: pointer;
+	}
+	.pinglun li:nth-child(1) {
+		border-right: 1px solid lightgray;
+	}
+	.pinglun li:nth-child(1) i {
+		display: block;
+		width: 60px;
+		height: 5px;
+		border-bottom: 3px solid #000;
+		background: url(http://www.xiangqu.com/build/xiangqu/detail/151210/images/detail_jt_0428.png?t=1) bottom center no-repeat
+	}
+	.spmxwrap {
+		background: url(http://www.xiangqu.com/build/xiangqu/detail/151210/images/detail_text.png?t=1) 785px 0 no-repeat #fff;
+	}
+	.spmxbody {
+		width: 750px;
+		margin: 0 auto;
+	}
+	.spmxhead {
+		margin-bottom: 40px;
+	}
+	.spmxhead a {
+		padding: 5px 10px;
+		background-color: rgb(234, 234, 234);
+		border-radius: 25px;
+		color: rgb(69, 64, 69);
+		margin-right: 15px;
+		font-size: 12px;
+	}
+	.spmxfooter img {
+		width: 750px;
+	}
+	/*
+ * 
+ * 
+ */
+	.tuan span {
+		position: relative;
+	}
+	.tuan span i {
+		display: none;
+		height: 12px;
+		width: 12px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		overflow: hidden;
+		background: url(http://www.xiangqu.com/build/xiangqu/detail/151210/images/detail_icon_0428.png?t=1) -108px -288px no-repeat #FFF;
+	}
+	.xinghao span {
+		position: relative;
+	}
+	.xinghao span i {
+		display: none;
+		height: 12px;
+		width: 12px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		overflow: hidden;
+		background: url(http://www.xiangqu.com/build/xiangqu/detail/151210/images/detail_icon_0428.png?t=1) -108px -288px no-repeat #FFF;
+	}
+	.xxpl {
+		width: 980px;
+		display: none;
+		background-color: white;
+	}
+	.xxpl div {
+		width: 756px;
+		margin: 0 auto;
+		text-align: right;
+	}
+	.xxpls {
+		width: 750px;
+		height: 78px;
+		display: block;
+		outline: none;
+		margin: 42px auto 5px auto;
+		background-color: rgb(238, 238, 238);
+		resize: none;
+	}
+	.fbpl {
+		width: 80px;
+		height: 30px;
+		border: 1px solid #000;
+		background: #FFF;
+		line-height: 30px;
+		color: #000;
+		outline: none;
+		cursor: pointer;
+	}
+	.contexts {
+		width: 750px;
+		margin: 0 auto 10px auto;
+	}
+	#comment_ul li {
+		width: 750px;
+		border-top: 1px solid rgb(235, 235, 235);
+		margin: 10px 0 60px 0;
+	}

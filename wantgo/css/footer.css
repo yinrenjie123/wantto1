@@ -1,0 +1,109 @@
+/*底部公共样式*/
+.footer {
+	clear: both;
+	background-color: #000000;
+}
+
+.footerwrap {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+.footerlogin {
+	width: 205px;
+	height: 225px;
+	overflow: hidden;
+	display: inline;
+	float: right;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/xq_bottom_img.png) no-repeat;
+}
+
+.footerp {
+	padding-top: 25px;
+	height: 90px;
+	color: #fff;
+	margin-right: 285px;
+	margin-bottom: 35px;
+}
+
+.footerp p:nth-child(1) {
+	font-size: 18px;
+	text-align: left;
+}
+
+.footerp p:nth-child(2) {
+	font-size: 14px;
+	padding-top: 25px;
+	text-align: right;
+}
+
+.footerlink {
+	width: 800px;
+	height: 80px;
+	background: url(../img/footer.png) no-repeat;
+}
+
+.download {
+	position: fixed;
+	z-index: 100;
+	right: 9px;
+	bottom: 2px;
+	width: 120px;
+	height: 238px;
+	background: #000;
+	color: #fff;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: -23px;
+	width: 23px;
+	height: 23px;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/ico_common.png) -204px -462px no-repeat;
+}
+
+.rz {
+	position: relative;
+	display: block;
+	width: 120px;
+	height: 80px;
+	cursor: pointer;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/ruzhu_bottom.png);
+}
+
+.download p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFFFFF;
+	margin: 16px 0 12px;
+}
+
+.ewm {
+	width: 110px;
+	height: 110px;
+	margin: 0 auto;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/qr.png) no-repeat;
+}
+
+.jy {
+	position: fixed;
+	right: 4%;
+	top: 500px;
+	width: 53px;
+	height: 53px;
+	cursor: pointer;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/advice.png);
+}
+
+.backtop {
+	position: fixed;
+	display: none;
+	right: 4.7%;
+	top: 380px;
+	width: 28px;
+	height: 120px;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/gotop.gif) center bottom no-repeat;
+}

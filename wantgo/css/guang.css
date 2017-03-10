@@ -1,0 +1,333 @@
+/*逛页面样式*/
+ul {
+	list-style-type: none;
+}
+
+.guanghead {
+	width: 980px;
+	height: 310px;
+	margin: 5px auto 55px;
+}
+
+.headtop {
+	height: 10px;
+	border-bottom: 4px solid black;
+}
+
+.headtop i {
+	background: url(http://www.xiangqu.com/images/core/v2/design_bar.png) no-repeat;
+	width: 73px;
+	height: 5px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.headtop p {
+	font-size: 14px;
+	display: inline;
+	position: relative;
+	left: -38px;
+	top: -1px;
+}
+
+.guanghead ul {
+	width: 994px;
+	margin-top: 5px;
+}
+
+.guanghead ul li {
+	width: 237px;
+	height: 140px;
+	border-bottom: 1px #E6E7E8 solid;
+	float: left;
+	margin-right: 11px;
+	margin-bottom: 5px;
+	background: rgba(255, 255, 255, 0.75);
+}
+
+.guanghead ul li div {
+	width: 235px;
+	height: 138px;
+	/*float: left;*/
+	border: 1px #e6e7e8 solid;
+}
+
+
+.lists dl{
+	height: 45px;
+    margin: 50px auto;
+}
+.lists dl dt{
+	width: 65px;
+    height: 45px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #231F20;
+    border-right: 1px #6D6E70 solid;
+    margin-bottom: 50px;
+}
+.lists dl dt a:hover{
+	color: rgb(98,187,196);
+}
+a{
+	text-decoration: none;
+}
+
+.lists dl dd{
+	float: left;
+    color: #777;
+    padding: 0 10px 5px 0;
+    font-size: 12px;
+    
+}
+
+.lists dl dd a{
+    color: #777;
+    padding: 2px 5px;
+    border-radius: 30px;
+    border: 1px transparent solid;
+}
+.lists dl dd a:hover{
+    border: 1px rgb(244,189,166) solid;
+}
+.lists1 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg1.png) no-repeat right bottom;
+}
+.lists2 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg2.png) no-repeat right bottom;
+}
+.lists3 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg3.png) no-repeat right bottom;
+}
+.lists4 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg4.png) no-repeat right bottom;
+}
+.lists5 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg5.png) no-repeat right bottom;
+}
+.lists6 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg6.png) no-repeat right bottom;
+}
+.lists7 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg7.png) no-repeat right bottom;
+}
+.lists8 {
+	background: url(http://www.xiangqu.com/images/core/v2/design_list_bg8.png) no-repeat right bottom;
+}
+#listss dt{
+	width: 70px;
+	margin-left: 22px;
+}
+.gwrap{
+	width: 980px;
+    margin: 0 auto 35px auto;
+    position: relative;
+    overflow: hidden;
+}
+.gwrap i{
+	width: 980px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: url(http://www.xiangqu.com/images/core/site_dotted.png) repeat-x center;
+}
+.gwrap h2{
+	float: left;
+    font-size: 18px;
+    border-left: 5px solid #000;
+    background-color: #fff;
+    border-right: 5px solid #000;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 7px;
+    display: inline;
+}
+.gfooter{
+	float: left;
+    background-color: #fff;
+    padding-left: 15px;
+}
+.gfooter a{
+	float: left;
+    margin: 0 10px 0 0;
+    background: #ececec;
+    height: 20px;
+    padding: 0 10px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #808285;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+/*
+ 
+ * 
+ * 
+ * 
+ * */
+.ggbody{
+	clear: both;
+    width: 1035px;
+    /*height: 200px;*/
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+.ggwrap{
+	width: 100%;
+    /*height: 3725px;*/
+    position: relative;
+}
+.goods li{
+	float: left;
+    border: 1px transparent solid;
+    width: 290px;
+    margin: 0 16.5px 16px 16.5px;
+}
+.goods li:hover{
+	border: 1px lightgray solid;
+}
+
+
+.dx a img{
+	width: 290px;
+	height: 290px;
+}
+.goodswrap{
+	width: 180px;
+	margin: 20px auto 0 auto;
+}
+.xt{
+	
+	height: 12px;
+    border-bottom: 1px solid #BBBDBF;
+}
+.price{
+ 	position: relative;
+    top: -12px;
+    color: #000;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 125px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.price span{
+	float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 59px;
+    line-height: 24px;
+}
+.like a i{
+	height: 15px;
+	line-height: 12px;
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    padding: 0 0 0 20px;
+	background: url(http://www.xiangqu.com/build/xiangqu/common/151207/images/core/v2/like.png) no-repeat;
+}
+.like-num{
+	height: 24px;
+    /*overflow: hidden;*/
+    text-align: left;
+    padding-left: 5px;
+    position: relative;
+    left: 102px;
+    top: -24px;
+	
+}
+.like-num dl{
+	position: relative;
+	top: 0;
+}
+.like-num dl dd{
+	width: 21px;
+    height: 24px;
+}
+.content dl{
+	width: 100%;
+    text-align: center;
+    zoom: 1;
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+    background: url(http://www.xiangqu.com/images/core/v2/dot2.png) repeat-x scroll center bottom;
+    letter-spacing: 2px;
+}
+.content dl dt{
+	color: #000;
+    word-wrap: break-word;
+    margin-bottom: 6px;
+    height: 24px;
+    overflow: hidden;
+    width: 290px;
+    position: relative;
+    left: -55px;
+}
+.content dl dd{
+	display: inline-block;
+}
+.content dd a:hover{
+	text-decoration: underline;
+}
+.dd{
+	height: 7px;
+    padding: 0 4px;
+    color: #9E9E9E;
+    line-height: 14px;
+    overflow: hidden;
+}
+.dd ins{
+	float: left;
+    width: 4px;
+    height: 4px;
+    background-color: #9E9E9E;
+}
+.pages{
+	clear: both;
+    height: auto;
+    padding: 20px 0 30px;
+}
+.pagesc{
+	vertical-align: top;
+    margin: 0 auto;
+    text-align: center;
+}
+.pagesc span{
+	font-size: 12px;
+	padding: 5px 10px;
+}
+.pagesc a{
+	display: inline-block;
+    padding: 5px;
+    min-width: 20px;
+	margin-right: 10px;
+    color: black;
+    background-color: rgb(230,230,230);
+    cursor: pointer;
+    font-size: 12px;
+}
+.pagesc a:hover{
+	color: white;
+	background-color: black;
+}
+.pagesc b{
+	margin-right: 5px;
+}
+.pagesc input{
+	width: 50px;
+	text-align: center;
+}

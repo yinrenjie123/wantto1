@@ -1,0 +1,358 @@
+/*首页样式*/
+*{
+	outline: none;
+}
+a {
+	color: black;
+}
+
+img:hover {
+	opacity: 0.9;
+}
+
+.topBanner {
+	width: 100%;
+	height: 360px;
+	background-color: rgb(221, 221, 221);
+}
+
+.bannerBox {
+	margin: 0 auto;
+	height: 100%;
+	width: 980px;
+	/*background: red;*/
+}
+
+.swiper-container1 {
+	float: left;
+	width: 770px;
+	height: 360px;
+}
+
+.swiper-container1 img {
+	width: 770px;
+	height: 360px;
+}
+
+.xiangqu {
+	float: right;
+	width: 205px;
+	height: 360px;
+}
+
+.xiangqu img {
+	width: 100%;
+	height: 100%;
+}
+
+.likeBox {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.titleBox {
+	width: 980px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.itemBox {
+	border-left: 6px solid black;
+	padding-left: 15px;
+	color: rgb(231, 125, 156);
+	display: inline;
+}
+
+.titleDes {
+	color: #cacaca;
+	line-height: 15px;
+	padding-left: 20px;
+	font-size: 12px;
+	display: inline;
+}
+
+.topRight1 {
+	float: right;
+}
+
+.topRight1 a {
+	text-decoration: none;
+}
+
+.topRight2 {
+	float: right;
+	/*text-decoration: none;*/
+}
+
+.topRight2 a {
+	text-decoration: none;
+}
+
+em {
+	float: left;
+	width: 8px;
+	height: 8px;
+	background-color: #000;
+	margin: 7px 8px;
+	border-radius: 5px;
+	/*font-size: 14px;*/
+	cursor: pointer;
+}
+
+.xian1 {
+	position: absolute;
+	top: 565px;
+	/*margin-left: 40px;*/
+	width: 980px;
+	border: 1px dashed goldenrod;
+}
+
+.likesCont {
+	height: 369px;
+	width: 980px;
+	/*background: red;*/
+}
+
+.swiper-container2 {
+	width: 100%;
+	height: 100%;
+}
+
+.myPhoto {
+	margin-left: 60px;
+	border-radius: 50%;
+	/*overflow: hidden;*/
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#myPhoto1 {
+	background: url(http://xquser.xiangqu.com/FsxmYJdnan2EMiI9T9SI0bYEEHmb?imageView2/2/w/40/q/90/format/jpg/40x40/) no-repeat;
+}
+
+#myPhoto2 {
+	background: url(http://xquser.xiangqu.com/FmPlJaqiRBSX003fMWDBiSMl7shV?imageView2/2/w/140/q/90/format/jpg/748x750/) no-repeat;
+}
+
+#myPhoto3 {
+	background: url(http://xquser.xiangqu.com/FrKvpKTBnS2Y_MGGq5jv-Ko55Dwn?imageView2/2/w/140/q/90/format/jpg/638x640/) no-repeat;
+}
+
+#myPhoto4 {
+	background: url(http://xquser.xiangqu.com/FtnlcMgz5pkE0pi6uJtmR593Hkce?imageView2/2/w/140/q/90/format/jpg/640x640/) no-repeat;
+}
+
+#myPhoto5 {
+	background: url(http://xquser.xiangqu.com/FrXtyNs2m97sjbLqgdEr5VLk8UwN?imageView2/2/w/140/q/90/format/jpg/180x180/) no-repeat;
+}
+
+#myPhoto6 {
+	background: url(http://xquser.xiangqu.com/Fke3WGvwg97iNhkNNFNyI79UTDY7?imageView2/2/w/140/q/90/format/jpg/690x690/) no-repeat;
+}
+
+#myPhoto7 {
+	background: url(http://xquser.xiangqu.com/Fiy-iwpI9kbNHGNk6seLhaYensyA?imageView2/2/w/140/q/90/format/jpg/640x640/) no-repeat;
+}
+
+#myPhoto8 {
+	background: url(http://xquser.xiangqu.com/FqQo9gbDqOG_ee565OPQpRbHmEzc?imageView2/2/w/140/q/90/format/jpg/750x750/) no-repeat;
+}
+
+.myName {
+	margin: 12px auto;
+	background-color: rgb(222, 188, 164);
+	border-radius: 10px;
+	font-size: 12px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	width: 60px;
+	color: white;
+	cursor: pointer;
+}
+
+.myLove {
+	margin-top: 20px;
+	width: 100%;
+	height: 200px;
+	cursor: pointer;
+	display: block;
+}
+
+.myLove img {
+	width: 100%;
+	height: 100%;
+}
+
+.myShop {
+	color: gray;
+	font-size: 12px;
+}
+
+i {
+	color: #444;
+	text-align: center;
+}
+
+ins {
+	display: inline-block;
+	width: 10px;
+	height: 7px;
+	margin: 0 5px;
+	background: url(../img/uc.png) -153px -70px;
+}
+
+.designerProduct {
+	overflow: hidden;
+}
+
+.designerProduct li {
+	float: left;
+	width: 168px;
+	margin-left: 15px;
+	margin-right: 11px;
+	margin-top: 22px;
+	border: 1px solid #f6f6f6;
+	background: white;
+	/*height: 100px;*/
+	list-style: none;
+}
+
+.designerProduct li h3>a {
+	width: 168px;
+	height: 166px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.designerProduct li h3 p {
+	width: 168px;
+	height: 29px;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: center;
+	background: #f6f6f6;
+}
+
+.designerProduct li h3 p>a {
+	text-decoration: none;
+}
+
+.designerProduct li h3 a img {
+	vertical-align: middle;
+	max-width: 164px;
+	max-height: 164px;
+}
+
+.designerProduct li h3 p:hover {
+	background-color: rgb(197, 197, 197);
+}
+
+#otherA {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #000;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+#otherA:hover {
+	background-color: black;
+	color: white;
+}
+
+#otherB {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #000;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+#otherB:hover {
+	background-color: black;
+	color: white;
+}
+
+.handCraftBOx {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.HandCraftItmes {
+	height: 560px;
+}
+
+.HandCraftItmes li {
+	float: left;
+	width: 216px;
+	/*height: 100px;*/
+	margin-left: 13px;
+	margin-right: 14px;
+	margin-bottom: 30px;
+	border: 1px solid #f6f6f6;
+	background: #f6f6f6;
+	position: relative;
+	list-style: none;
+}
+
+.HandCraftItmes li h3>a {
+	width: 214px;
+	height: 214px;
+	/*padding-bottom: 5px;*/
+	border-bottom: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+	background-color: white;
+}
+
+.HandCraftItmes li p {
+	height: 40px;
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/pc_new_icon.png) 186px -171px no-repeat;
+}
+
+.HandCraftItmes li p a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.HandCraftItmes li p span {
+	color: #9a9a9a;
+	font-size: 12px;
+}
+.HandCraftItmes li h3 a img{
+	width: 214px;
+	height: 214px;
+}
+.overflowHidden {
+	position: absolute;
+	top: -13px;
+	left: 10px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+}
+
+.overflowHidden1 {
+	background: url(http://img-shop.kkkd.com/Fh4-2k4P3wON2FwcM8EwE0LPuGYR) no-repeat;
+	background-size: 100% 100%;
+}
+
+.other h3 {
+	background-color: white;
+	height: 183px;
+	padding: 40px 20px;
+}
+

@@ -1,0 +1,271 @@
+/*头部公共样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	width: 100%;
+	height: 45px;
+	background-color: rgb(1, 1, 1);
+	position: relative;
+}
+
+.nav-go {
+	margin: 0 auto;
+	height: 45px;
+	width: 980px;
+	position: relative;
+}
+
+.siteLogo {
+	width: 330px;
+	height: 45px;
+	float: left;
+	display: inline;
+}
+
+.fl {
+	width: 329px;
+	height: 100%;
+	text-align: center;
+	display: table;
+	overflow: hidden;
+	float: left;
+}
+
+.fl a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.fl a img {
+	vertical-align: middle;
+}
+
+.userInfo {
+	position: absolute;
+	right: 0;
+	width: 600px;
+	height: 45px;
+}
+
+.app-down {
+	display: inline;
+	/*float: right;*/
+	/*vertical-align: middle;*/
+	position: absolute;
+	right: 0;
+	width: 94.45px;
+	height: 45px;
+}
+
+.menu-hd {
+	color: #fff;
+	display: inline;
+	position: absolute;
+	top: 10px;
+}
+
+#menu-she a {
+	color: darkkhaki;
+}
+
+#menu-she a:hover {
+	color: yellow;
+}
+
+.menu-hd a {
+	text-decoration: none;
+	color: lightgray;
+	/*vertical-align: middle;*/
+	font-size: 12px;
+}
+
+.menu-hd a:hover {
+	color: white;
+}
+
+.iconfont {
+	/*font-size: 12px;*/
+	color: white;
+	padding: 0 3px;
+}
+
+.designers {
+	position: absolute;
+	width: 92px;
+	height: 45px;
+	right: 94.45px;
+}
+
+.soeasy {
+	position: absolute;
+	right: 188.45px;
+	width: 104px;
+	height: 45px;
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.soeasy a {
+	color: red;
+}
+
+.zhuce {
+	line-height: 25px;
+	float: right;
+	width: 52px;
+	height: 45px;
+}
+
+.denglu {
+	line-height: 25px;
+	float: right;
+	width: 52px;
+	height: 45px;
+}
+
+.erweima {
+	z-index: 100;
+	display: none;
+	position: absolute;
+	top: 42px;
+	right: 20px;
+	width: 120px;
+	height: 120px;
+	background: #000;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.erweima img {
+	width: 100%;
+}
+
+.nav-search {
+	margin: 0 auto;
+	height: 60px;
+	width: 980px;
+	position: relative;
+}
+
+.main-nav {
+	float: left;
+	width: 650px;
+	list-style: none;
+	margin-top: 13px;
+}
+
+.main-nav li:nth-child(1) {
+	font-size: 18px;
+	display: inline;
+	padding: 0 10px 0 23px;
+	/*background: url(img/head/dot.png) -10px 2px no-repeat;*/
+	border-bottom: 2px black solid;
+}
+
+.main-nav li:nth-child(1):hover {
+	border-bottom: 2px black solid;
+}
+
+.main-nav li:nth-child(2) {
+	font-size: 18px;
+	display: inline;
+	padding: 0 10px 0 23px;
+	background: url(../img/head/dot.png) -10px 2px no-repeat;
+}
+
+.main-nav li:nth-child(2):hover {
+	border-bottom: 2px black solid;
+}
+
+.main-nav li:nth-child(3) {
+	font-size: 18px;
+	display: inline;
+	padding: 0 10px 0 23px;
+	background: url(../img/head/dot.png) -10px 2px no-repeat;
+}
+
+.main-nav li:nth-child(3):hover {
+	border-bottom: 2px black solid;
+}
+
+.main-nav li:nth-child(4) {
+	font-size: 18px;
+	display: inline;
+	padding: 0 10px 0 23px;
+	background: url(../img/head/dot.png) -10px 2px no-repeat;
+}
+
+.main-nav li:nth-child(4):hover {
+	border-bottom: 2px black solid;
+}
+
+.main-nav li:nth-child(5) {
+	font-size: 18px;
+	display: inline;
+	padding: 0 10px 0 23px;
+	background: url(../img/head/dot.png) -10px 2px no-repeat;
+}
+
+.main-nav li:nth-child(5):hover {
+	border-bottom: 2px black solid;
+}
+
+.main-nav li a {
+	text-decoration: none;
+}
+
+.main-input {
+	float: right;
+	width: 330px;
+	height: 60px;
+}
+
+.search {
+	margin-top: 15px;
+	height: 30px;
+}
+
+#searchText {
+	width: 272px;
+	height: 30px;
+	border: 1px solid #e2e2e2;
+	float: left;
+	padding-left: 10px;
+}
+
+#searchSubmit {
+	width: 43px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../img/head/search.png) no-repeat;
+	border: none;
+	float: right;
+}
+
+.down1 {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/uc.png) -146px -60px;
+}
+
+.gouwuche1 {
+	position: absolute;
+	right: 292.45px;
+	width: 45px;
+	height: 45px;
+	color: white;
+}
+
+.goBack {
+	position: absolute;
+	right: 337.45px;
+	width: 100px;
+	height: 45px;
+	color: white;
+}

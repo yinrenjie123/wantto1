@@ -1,0 +1,161 @@
+/*注册页样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	background: url(http://www.xiangqu.com/build/xiangqu/register/151222/images/brickwall.png?t=1);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*头部*/
+
+.navbox {
+	width: 100%;
+	height: 98px;
+}
+
+.navbg {
+	width: 980px;
+	height: 98px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 330px;
+	height: 100%;
+}
+
+.fl {
+	width: 329px;
+	height: 100%;
+	text-align: center;
+	display: table;
+	overflow: hidden;
+	float: left;
+}
+
+.fl a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.fl a img {
+	vertical-align: middle;
+	max-width: 329px;
+}
+
+
+/*中间注册*/
+
+.box {
+	width: 980px;
+	background: #fff;
+	margin: 0 auto 100px;
+}
+
+.body {
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.form-head h2 {
+	padding-top: 25px;
+	padding-bottom: 27px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.form-body {
+	padding-bottom: 36px;
+}
+
+.input-box {
+	width: 100%;
+	vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+.inputs {
+	border: 1px solid silver;
+	border-radius: 4px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.inputs input {
+	border: none;
+	outline: none;
+}
+
+.inputs i {
+	font-size: 14px;
+	line-height: 46px;
+	vertical-align: middle;
+	color: #afafaf;
+	padding: 0 10px;
+	float: left;
+}
+
+.inputPhone {
+	width: 305px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	float: left;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.inputPwd {
+	width: 305px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	float: left;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.Pwdp {
+	font-size: 14px;
+	color: #d3d3d3;
+	padding-top: 5px;
+}
+
+.btnp {
+	height: 30px;
+}
+
+.loginBtn {
+	display: inline-block;
+	width: 350px;
+	height: 48px;
+	line-height: 48px;
+	background-color: #343434;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.xy {
+	color: #707070;
+	padding: 5px 0 30px;
+	font-size: 14px;
+}
+
+.login-box {
+	text-align: center;
+}

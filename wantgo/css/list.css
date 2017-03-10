@@ -1,0 +1,373 @@
+/*首页table选项卡样式*/
+.onlineShare {
+	width: 980px;
+	margin: 0 auto;
+	height: 428px;
+	margin-top: 30px;
+	padding-bottom: 35px;
+}
+
+.onlineShare>a {
+	width: 80px;
+	height: 94px;
+	float: left;
+	padding: 8px 9px;
+	text-decoration: none;
+	border: 1px solid #deded1;
+	background: #f6f6f6;
+}
+
+.clearFix>p {
+	font-size: 12px;
+	color: #939393;
+}
+
+.six {
+	display: inline-block;
+	width: 57px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.shareRight {
+	width: 870px;
+	height: 100px;
+	margin-left: 10px;
+	float: left;
+}
+
+.bg {
+	height: 5px;
+	margin-top: 5px;
+	background: black;
+}
+
+.bf {
+	background: #fff;
+	font-size: 12px;
+	color: #666;
+	position: relative;
+	left: 30px;
+	top: -11px;
+	width: 320px;
+	letter-spacing: 0.352em;
+}
+
+.activeAct1 {
+	float: left;
+	margin-top: 10px;
+	width: 88px;
+	height: 42px;
+	list-style-type: none;
+	position: relative;
+}
+
+.activeAct2 {
+	float: left;
+	margin-top: 10px;
+	width: 62px;
+	height: 58px;
+	list-style-type: none;
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/homev2_icos.png) 12px -230px no-repeat;
+}
+
+.activeAct1 a {
+	text-decoration: none;
+	position: relative;
+}
+
+.activeAct3 {
+	margin-left: 20px;
+	color: black;
+}
+
+.activeAct4 {
+	color: white;
+}
+
+.act {
+	display: none;
+	border-radius: 50%;
+	position: relative;
+	left: -3px;
+	top: -61px;
+	z-index: -2;
+	background: #000;
+	width: 82px;
+	height: 82px;
+}
+
+.act1 {
+	display: block;
+}
+
+.shareBottom {
+	float: left;
+	width: 980px;
+	height: 36px;
+	background-color: #EFEFEF;
+}
+
+.shareBottomLine {
+	height: 2px;
+	background-color: #000000;
+}
+
+.shareBottomP1 {
+	margin-left: 137px;
+	float: left;
+	width: 16px;
+	height: 15px;
+	position: relative;
+	top: -7px;
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/smallIcon.png);
+	background-position: 0 -250px;
+}
+
+.shareBottomP2 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/smallIcon.png);
+	background-position: 0 -316px;
+}
+
+.data1 {
+	width: 112px;
+	height: 23px;
+	float: left;
+	position: relative;
+	top: -5px;
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/homev2_icos.png) 0 -202px no-repeat;
+}
+
+.data1 span {
+	color: #fff;
+	font-size: 14px;
+	margin: 9px 0 0 8px;
+}
+
+.shopPeople li {
+	float: left;
+	list-style-type: none;
+	margin-left: 96px;
+	font-size: 12px;
+	color: #cc9e96;
+	;
+}
+
+.shopPeople li:nth-child(1) {
+	float: left;
+	list-style-type: none;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #cc9e96;
+}
+
+.shareContent {
+	width: 980px;
+	height: 282px;
+	float: left;
+	border: 1px solid lightgrey;
+}
+
+.navAll {
+	width: 930px;
+	height: 260px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.navAll>div {
+	width: 290px;
+	height: 120px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.navAll div h2 {
+	font-size: 14px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 6px;
+}
+
+.aaaa {
+	float: left;
+	height: 20px;
+	border: 1px solid #e6e6e6;
+	padding: 0 10px;
+	margin: 0 10px 12px 0;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+.aaaa span {
+	color: #888;
+	line-height: 20px;
+}
+
+.listTop {
+	height: 27px;
+}
+
+.listCloth {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+.listCloth1 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/nav_ico.png) 0 -104px no-repeat;
+}
+
+.listCloth2 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/nav_ico.png) 0 -229px no-repeat;
+}
+
+.listCloth3 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/nav_ico.png) 0 -35px no-repeat;
+}
+
+.listCloth4 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/nav_ico.png) 0 -352px no-repeat;
+}
+
+.listCloth5 {
+	background: url(http://www.xiangqu.com/build/xiangqu/index/151207/images/nav_ico.png) 0 -200px no-repeat;
+}
+
+.bbbb {
+	font-size: 14px;
+	margin-left: 15px;
+	/*color: red;*/
+	text-decoration: none;
+}
+
+.bbbb span {
+	font-size: 16px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 18px;
+}
+
+.listDetail {
+	width: 300px;
+	height: 92px;
+	border-top: 1px dashed gray;
+	clear: both;
+}
+
+.listDetail p {
+	float: left;
+	font-size: 13px;
+	width: 50px;
+	height: 20px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: grey;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.shareContent ul li:nth-child(2) {
+	display: none;
+}
+
+.shareContent ul li:nth-child(3) {
+	display: none;
+}
+
+.shareContent ul li:nth-child(4) {
+	display: none;
+}
+
+.shareContent ul li:nth-child(5) {
+	display: none;
+}
+
+.shareContent ul li:nth-child(6) {
+	display: none;
+}
+
+.six:hover {
+	color: rgb(98, 187, 196);
+}
+
+.goodRecommand {
+	width: 980px;
+	margin: 0 auto;
+	height: 35px;
+}
+
+.swiper-container3 {
+	width: 1080px;
+	height: 483px;
+}
+
+.swiper-wrapper3 {
+	width: 980px;
+	height: 483px;
+	margin: 0 auto;
+}
+
+.swiperSlideItem li {
+	width: 236px;
+	height: 236px;
+	float: left;
+	margin: 0 13px 13px 0;
+	list-style-type: none;
+	position: relative;
+}
+
+.swiperSlideItem li a {
+	width: 100%;
+	height: 100%;
+}
+
+.swiperSlideItem li a img {
+	width: 100%;
+	height: 100%;
+}
+
+.itemName {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 33px;
+	color: black;
+	background: white;
+	opacity: 0.6;
+	text-align: center;
+	line-height: 33px;
+}
+
+.randomLinks {
+	width: 980px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+.perhapsLike li {
+	width: 130px;
+	height: 130px;
+	float: left;
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+.perhapsLike li a img {
+	width: 100%;
+	height: 100%;
+}
+
+.liuyanBiao {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.liuyanBiao img {
+	width: 100%;
+}

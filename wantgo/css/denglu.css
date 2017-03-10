@@ -1,0 +1,130 @@
+/*登陆页样式*/
+.leftlogin{
+	float: left;
+	width: 546px;
+    height: 450px;
+}
+.leftlogin a{
+	cursor: pointer;
+}
+.rightlogin{
+	float: right;
+    width: 392px;
+    height: 448px;
+    border: 1px solid #d8d8d8;
+    background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 25px 22px 21px;
+}
+.righttitle{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.loginline{
+    width: 100%;    
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #d3d3d3;    
+    margin-bottom: 17px;
+	text-align: center;
+	background: url(http://www.xiangqu.com/build/xiangqu/images/faster_line.jpg) center center no-repeat;
+}
+
+.forget{
+	height: 20px;
+	line-height: 20px;
+    padding-bottom: 5px;
+}
+.fr{
+	display: inline;		
+	float: right;
+}
+.login-xq{
+	padding-bottom: 26px;
+}
+.login{
+	display: block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    text-align: center;
+    background: #343434;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.rz{
+	float: left;
+	/*display: none;*/
+}
+.zh{
+	padding-left: 103px;
+}
+.weixin{
+	display: inline;
+	float: left;
+	margin-right: 16px;
+	
+}
+.weixin a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	overflow: hidden;
+}
+.weixin a i{
+	width: 36px;
+	height: 36px;
+	display: block;
+	background: url(http://www.xiangqu.com/build/xiangqu/images/three_logo.gif) 0 0;
+}
+.weibo{
+	display: inline;
+	float: left;
+	margin-right: 16px;	
+}
+.weibo a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	overflow: hidden;
+}
+.weibo a i{
+	width: 36px;
+	height: 36px;
+	display: block;
+	background: url(http://www.xiangqu.com/build/xiangqu/images/three_logo.gif) -52px 0;
+}
+.qq{
+	display: inline;
+	float: left;
+	margin-right: 16px;	
+}
+.qq a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	overflow: hidden;
+}
+.qq a i{
+	width: 36px;
+	height: 36px;
+	display: block;
+	background: url(http://www.xiangqu.com/build/xiangqu/images/three_logo.gif) -105px 0;
+}
+.lastp{
+	font-size: 14px;
+	padding-top: 19px;
+	color: #c3c3c3;
+	text-align: center;
+}
+ul:after{
+	clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
